@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <main id="calc-body">
+    <section id="calc-screen">
+      <p id="operator-display">
+        <span id="calc-previous-number">
+        </span>
+      </p>
+      <p id="calc-number-display">
+        0
+      </p>    
+    </section>
+    <section id="keypad">
+      <ul id="digits">
+        <li class="keypad-button">1</li>
+        <li class="keypad-button">2</li>
+        <li class="keypad-button">3</li>
+        <li class="keypad-button">4</li>
+        <li class="keypad-button">5</li>
+        <li class="keypad-button">6</li>
+        <li class="keypad-button">7</li>
+        <li class="keypad-button">8</li>
+        <li class="keypad-button">9</li>
+        <li class="spacer"></li>
+        <li class="keypad-button">0</li>
+        <li id="point">.</li>
+      </ul>
+      <ul id="operators">
+        <li id="clear">C</li>
+        <li id="undo">CE</li>
+        <li id="add" class="operator">+</li>
+        <li id="subtract" class="operator">-</li>
+        <li id="multiply" class="operator">*</li>
+        <li id="divide" class="operator">/</li>
+        <li id="equals">=</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p id="footer-text">
+      by Kristopher Sach, 2020
+    </p>
+  </footer>
+</body>
+<script src="script.js"></script> 
+</html>
